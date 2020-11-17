@@ -1,0 +1,92 @@
+.hero
+{
+background-image:url("hotel_front_page.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+height:1000px;
+}
+.hero h1,h2
+{
+color:white;
+font-size:35;
+font-family:Verdana;
+}
+.main
+{
+position:absolute;
+top:10%;
+right:5%;
+color:pink;
+}
+.menu
+{
+position:absolute;
+top:10;
+right:20;
+margin:20px;
+background-color:black;
+}
+.menu li
+{
+margin-right:20px;
+float:left;
+font-size:30;
+}
+.hero-text 
+{
+position:absolute;
+align:center;
+top:55%;
+left:1%;
+color:white;
+font-size:30;
+}
+.hero-text h2
+{
+font-size:15px;
+}
+
+/* The animation code */
+@keyframes example {
+  0%   {border-color: yellow;}
+  25%  {border-color: black;}
+  50%  {border-color: blue;}
+  100% {border-color: violet;}
+}
+
+.services
+{
+position:absolute;
+top:80%;
+left:2%;
+height:180px;
+width:280px;
+padding:25px;
+border: 2px solid gold;
+color:pink;
+font-size:22;
+animation-name:example;
+animation-duration:6s;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column
+{
+float: left;
+width: 32%;
+padding: 6.5px;
+}
+
+/* Clear floats after image containers */
+.row 
+{
+content: "";
+clear: both;
+display: table;
+}
+
+.conclusion
+{
+background-color:black;
+background-size:1000;
+color:gold;
+}
